@@ -14,6 +14,8 @@ def generate():
             a = random.choice(sessiz)
         if a[-1] == 'l':
             b='o'
+        elif a[-1] == 't':
+            b = 'i'
         else:
             b = random.choice(sesli)
         s+=a+b
