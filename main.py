@@ -2,6 +2,8 @@ from flask import Flask
 arr = Flask(__name__)
 @app.root('/')
 def generate():
+    sessiz = list("llllkmttnptp")
+    sesli = list("ioaooaooii")
     s = "oki"
     rand = random.randint(1,3)
     for i in range(rand):
